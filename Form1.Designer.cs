@@ -34,19 +34,19 @@
             this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSave = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSaveAs = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCut = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCopy = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPaste = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDelete = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuSelectAll = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.mnuSelectAll = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuForrmt = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFont = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuColor = new System.Windows.Forms.ToolStripMenuItem();
             this.FontBox = new System.Windows.Forms.ToolStripComboBox();
+            this.mnuColor = new System.Windows.Forms.ToolStripMenuItem();
             this.ColorBox = new System.Windows.Forms.ToolStripComboBox();
             this.mnuWindow = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuArrangelcons = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,7 +92,7 @@
             // 
             this.mnuNew.Name = "mnuNew";
             this.mnuNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.mnuNew.Size = new System.Drawing.Size(224, 26);
+            this.mnuNew.Size = new System.Drawing.Size(216, 26);
             this.mnuNew.Text = "&Новый";
             this.mnuNew.Click += new System.EventHandler(this.mnuNew_Click);
             // 
@@ -100,7 +100,7 @@
             // 
             this.mnuOpen.Name = "mnuOpen";
             this.mnuOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.mnuOpen.Size = new System.Drawing.Size(224, 26);
+            this.mnuOpen.Size = new System.Drawing.Size(216, 26);
             this.mnuOpen.Text = "&Открыть";
             this.mnuOpen.Click += new System.EventHandler(this.mnuOpen_Click);
             // 
@@ -108,29 +108,29 @@
             // 
             this.mnuSave.Name = "mnuSave";
             this.mnuSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.mnuSave.Size = new System.Drawing.Size(224, 26);
+            this.mnuSave.Size = new System.Drawing.Size(216, 26);
             this.mnuSave.Text = "&Сохранить";
             this.mnuSave.Click += new System.EventHandler(this.mnuSave_Click);
             // 
             // mnuSaveAs
             // 
             this.mnuSaveAs.Name = "mnuSaveAs";
-            this.mnuSaveAs.Size = new System.Drawing.Size(224, 26);
+            this.mnuSaveAs.Size = new System.Drawing.Size(216, 26);
             this.mnuSaveAs.Text = "Сохранить как...";
             this.mnuSaveAs.Click += new System.EventHandler(this.mnuSaveAs_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
             // 
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
             this.mnuExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.mnuExit.Size = new System.Drawing.Size(224, 26);
+            this.mnuExit.Size = new System.Drawing.Size(216, 26);
             this.mnuExit.Text = "&Выход";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
             // 
             // mnuEdit
             // 
@@ -177,6 +177,11 @@
             this.mnuDelete.Text = "&Удалить";
             this.mnuDelete.Click += new System.EventHandler(this.mnuDelete_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(235, 6);
+            // 
             // mnuSelectAll
             // 
             this.mnuSelectAll.Name = "mnuSelectAll";
@@ -184,11 +189,6 @@
             this.mnuSelectAll.Size = new System.Drawing.Size(238, 26);
             this.mnuSelectAll.Text = "&Выделить все";
             this.mnuSelectAll.Click += new System.EventHandler(this.mnuSelectAll_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(235, 6);
             // 
             // mnuForrmt
             // 
@@ -207,14 +207,6 @@
             this.mnuFont.Size = new System.Drawing.Size(224, 26);
             this.mnuFont.Text = "Шрифт...";
             // 
-            // mnuColor
-            // 
-            this.mnuColor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ColorBox});
-            this.mnuColor.Name = "mnuColor";
-            this.mnuColor.Size = new System.Drawing.Size(224, 26);
-            this.mnuColor.Text = "Цвет...";
-            // 
             // FontBox
             // 
             this.FontBox.Items.AddRange(new object[] {
@@ -232,6 +224,14 @@
             this.FontBox.Size = new System.Drawing.Size(121, 28);
             this.FontBox.Click += new System.EventHandler(this.FontBox_Click);
             // 
+            // mnuColor
+            // 
+            this.mnuColor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ColorBox});
+            this.mnuColor.Name = "mnuColor";
+            this.mnuColor.Size = new System.Drawing.Size(224, 26);
+            this.mnuColor.Text = "Цвет...";
+            // 
             // ColorBox
             // 
             this.ColorBox.Items.AddRange(new object[] {
@@ -242,7 +242,8 @@
             "Желтый",
             "Серый",
             "Черный",
-            "Розовый"});
+            "Розовый",
+            "Серо-буро-малиновый"});
             this.ColorBox.Name = "ColorBox";
             this.ColorBox.Size = new System.Drawing.Size(121, 28);
             this.ColorBox.Click += new System.EventHandler(this.ColorBox_Click);
@@ -261,28 +262,28 @@
             // mnuArrangelcons
             // 
             this.mnuArrangelcons.Name = "mnuArrangelcons";
-            this.mnuArrangelcons.Size = new System.Drawing.Size(224, 26);
+            this.mnuArrangelcons.Size = new System.Drawing.Size(199, 26);
             this.mnuArrangelcons.Text = "Упорядочить";
             this.mnuArrangelcons.Click += new System.EventHandler(this.mnuArrangelcons_Click);
             // 
             // mnuCascade
             // 
             this.mnuCascade.Name = "mnuCascade";
-            this.mnuCascade.Size = new System.Drawing.Size(224, 26);
+            this.mnuCascade.Size = new System.Drawing.Size(199, 26);
             this.mnuCascade.Text = "Каскад";
             this.mnuCascade.Click += new System.EventHandler(this.mnuCascade_Click);
             // 
             // mnuTileHorizontal
             // 
             this.mnuTileHorizontal.Name = "mnuTileHorizontal";
-            this.mnuTileHorizontal.Size = new System.Drawing.Size(224, 26);
+            this.mnuTileHorizontal.Size = new System.Drawing.Size(199, 26);
             this.mnuTileHorizontal.Text = "Горизонтально";
             this.mnuTileHorizontal.Click += new System.EventHandler(this.mnuTileHorizontal_Click);
             // 
             // mnuTileVertical
             // 
             this.mnuTileVertical.Name = "mnuTileVertical";
-            this.mnuTileVertical.Size = new System.Drawing.Size(224, 26);
+            this.mnuTileVertical.Size = new System.Drawing.Size(199, 26);
             this.mnuTileVertical.Text = "Вертикально";
             this.mnuTileVertical.Click += new System.EventHandler(this.mnuTileVertical_Click);
             // 
@@ -297,7 +298,7 @@
             // mnuAbout
             // 
             this.mnuAbout.Name = "mnuAbout";
-            this.mnuAbout.Size = new System.Drawing.Size(224, 26);
+            this.mnuAbout.Size = new System.Drawing.Size(196, 26);
             this.mnuAbout.Text = "О программе...";
             // 
             // openFileDialog1
