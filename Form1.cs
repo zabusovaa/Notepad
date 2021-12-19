@@ -176,6 +176,11 @@ namespace Notepad
                 blank frm = (blank)(this.ActiveMdiChild);
                 frm.ChangeColorPink();
             }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Серо-буро-малиновый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorSBM();
+            }
 
         }
 
