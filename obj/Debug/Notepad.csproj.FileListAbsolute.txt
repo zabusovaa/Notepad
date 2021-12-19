@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Технологии программирования\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\User\Desktop\Технологии программирования\Notepad\bin\Debug\Notepad.exe
+C:\Users\User\Desktop\Технологии программирования\Notepad\bin\Debug\Notepad.pdb
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.blank.resources
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.frmmain.resources
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.exe
+C:\Users\User\Desktop\Технологии программирования\Notepad\obj\Debug\Notepad.pdb
