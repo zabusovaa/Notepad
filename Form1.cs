@@ -81,7 +81,57 @@ namespace Notepad
 
         private void FontBox_Click(object sender, EventArgs e)
         {
-           
+            if (Convert.ToString(FontBox.SelectedItem) == "Verdana")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontVerdana();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Calibri")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontCalibri();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Bell")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontBell();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Arial")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontArial();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Candara")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontCandara();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Elephant")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontElephant();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Calisto")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontCalisto();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Consolas")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontConsolas();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Agency")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontAgency();
+            }
+            else if (Convert.ToString(FontBox.SelectedItem) == "Onyx")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeFontOnyx();
+            }
+
         }
 
         private void ColorBox_Click(object sender, EventArgs e)
