@@ -136,7 +136,47 @@ namespace Notepad
 
         private void ColorBox_Click(object sender, EventArgs e)
         {
-            
+            if (Convert.ToString(ColorBox.SelectedItem) == "Красный")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorRed();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Зеленый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorGreen();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Голубой")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorBlue();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Оранжевый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorOrange();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Желтый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorYellow();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Серый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorGray();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Черный")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorBlack();
+            }
+            else if (Convert.ToString(ColorBox.SelectedItem) == "Розовый")
+            {
+                blank frm = (blank)(this.ActiveMdiChild);
+                frm.ChangeColorPink();
+            }
+
         }
 
         private void mnuOpen_Click(object sender, EventArgs e)
