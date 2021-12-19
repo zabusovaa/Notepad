@@ -100,6 +100,10 @@ namespace Notepad
         {
             richTextBox1.SelectionColor = Color.Pink;
         }
+        public void ChangeColorSBM() //розовый цвет
+        {
+            richTextBox1.SelectionColor = Color.MediumVioletRed;
+        }
 
         //методы выбора шрифта текста
         public void ChangeFontVerdana() //шрифты
